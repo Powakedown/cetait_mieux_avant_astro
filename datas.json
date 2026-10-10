@@ -1,0 +1,908 @@
+{
+  "eras": [
+    {
+      "name": "Jésus Christ",
+      "slug": "jesus-christ",
+      "question": "Vivre du temps de Jésus Christ ?",
+      "description": "La Judée du Ier siècle sous occupation romaine : province turbulente, messies et prédicateurs, tensions religieuses et attentes eschatologiques, au carrefour du monde méditerranéen.",
+      "source": "https://fr.wikipedia.org/wiki/J%C3%A9sus_de_Nazareth",
+      "start_year": "-0004-01-01",
+      "end_year": "0033-01-01",
+      "comments": [
+        {
+          "asset": "Lèpre",
+          "description": "La lèpre sévit dans le bassin méditerranéen. Malades isolés et marginaux, ils sont considérés comme impurs et exclus de la communauté.",
+          "coming": false
+        },
+        {
+          "asset": "Travail des enfants",
+          "description": "Le travail des enfants est la norme : aux champs, à l'atelier, à la maison. Dès le plus jeune âge, ils participent à l'économie familiale.",
+          "coming": false
+        },
+        {
+          "asset": "Esclavage",
+          "description": "L'esclavage est massif dans le monde romain : prisonniers de guerre, dettes, naissance. L'économie méditerranéenne en dépend largement.",
+          "coming": false
+        },
+        {
+          "asset": "Dictature",
+          "description": "Hérode le Grand, roi vassal de Rome, règne en maître sur la Judée. Le pouvoir est absolu, sous tutelle impériale romaine.",
+          "coming": false
+        },
+        {
+          "asset": "Culture du viol",
+          "description": "Le statut de la femme est subordonné au patriarche. Le consentement n'est pas un concept juridique, le viol est peu réprimé hors adultère.",
+          "coming": false
+        },
+        {
+          "asset": "Pédophilie",
+          "description": "La minorité sexuelle n'existe pas comme concept juridique. Les mariages précoces sont fréquents et la mortalité infantile très élevée.",
+          "coming": false
+        },
+        {
+          "asset": "Esclavage généralisé",
+          "description": "Esclavage généralisé sévit encore à cette époque.",
+          "coming": false
+        },
+        {
+          "asset": "Très faible espérance de vie",
+          "description": "Très faible espérance de vie sévit encore à cette époque.",
+          "coming": false
+        },
+        {
+          "asset": "Hygiène inexistante",
+          "description": "Hygiène inexistante sévit encore à cette époque.",
+          "coming": false
+        }
+      ],
+      "era_bonuses": [
+        {
+          "bonus": "Paix",
+          "description": "La Gaule romaine bénéficie de la Pax Romana. L'ordre impérial maintient une paix relative dans les provinces."
+        }
+      ]
+    },
+    {
+      "name": "Moyen Âge",
+      "slug": "moyen-age",
+      "question": "Vivre au Moyen Âge ?",
+      "description": "Le Moyen Âge : seigneurs, châteaux forts, famines, épidémies, religion omniprésente et vie quotidienne rude, de la chute de Rome à la Renaissance.",
+      "source": "https://fr.wikipedia.org/wiki/Moyen_%C3%82ge",
+      "start_year": "0476-01-01",
+      "end_year": "1453-07-21",
+      "comments": [
+        {
+          "asset": "Lèpre",
+          "description": "La lèpre est endémique au Moyen Âge. Des léproseries parsèment le pays pour isoler les malades, craints et marginalisés.",
+          "coming": false
+        },
+        {
+          "asset": "Travail des enfants",
+          "description": "Le travail des enfants est universel et nécessaire à la survie. Dès le plus jeune âge, les enfants travaillent aux champs ou aux ateliers.",
+          "coming": false
+        },
+        {
+          "asset": "Esclavage",
+          "description": "L'esclavage existe encore au début du Moyen Âge, mais décline avec la féodalité au profit du servage, qui le remplace graduellement.",
+          "coming": false
+        },
+        {
+          "asset": "Dictature",
+          "description": "Le pouvoir se concentre lentement entre les mains des souverains. Les Capétiens imposent progressivement leur autorité sur des seigneurs puissants et fragmentés.",
+          "coming": false
+        },
+        {
+          "asset": "Culture du viol",
+          "description": "Le droit médiéval soumet la femme au père puis au mari. Le consentement n'est pas un concept juridique, le viol est peu réprimé.",
+          "coming": false
+        },
+        {
+          "asset": "Pédophilie",
+          "description": "La pédocriminalité n'est pas identifiée. Les mariages précoces et la mortalité infantile élevée caractérisent cette société rude.",
+          "coming": false
+        }
+      ],
+      "era_bonuses": [
+        {
+          "bonus": "Guerre",
+          "description": "Invasions, guerres féodales et guerre de Cent Ans : le territoire est en conflit presque permanent tout au long du Moyen Âge."
+        },
+        {
+          "bonus": "Peste",
+          "description": "La peste de Justinien (VIe s.) puis la peste noire (1347-1352) décimentent la population française."
+        },
+        {
+          "bonus": "Famine",
+          "description": "Les famines sont endémiques, aggravées par les guerres et le climat. La grande famine de 1315-1317 frappe toute l'Europe."
+        }
+      ]
+    },
+    {
+      "name": "Louis XIV",
+      "slug": "louis-xiv",
+      "question": "Vivre du temps de Louis XIV ?",
+      "description": "Le Roi-Soleil et Versailles : absolutisme, faste de la cour, guerres d'expansion, classique français, arts et grandeur, du milieu du XVIIe siècle au début du XVIIIe.",
+      "source": "https://fr.wikipedia.org/wiki/Louis_XIV",
+      "start_year": "1643-05-14",
+      "end_year": "1715-09-01",
+      "comments": [
+        {
+          "asset": "Lèpre",
+          "description": "La lèpre a largement reculé en France au XVIIe siècle, mais des maladreries subsistent. La maladie frappe encore les marges.",
+          "coming": false
+        },
+        {
+          "asset": "Travail des enfants",
+          "description": "Le travail des enfants est la norme dans les champs et ateliers. Dès 7 ans, ils participent à l'économie familiale sans protection.",
+          "coming": false
+        },
+        {
+          "asset": "Esclavage",
+          "description": "L'esclavage sévit dans les colonies. Le Code noir de 1685 réglemente l'esclavage, légitimant et organisant la condition servile.",
+          "coming": false
+        },
+        {
+          "asset": "Dictature",
+          "description": "Louis XIV incarne l'absolutisme royal : « L'État, c'est moi. » Tous les pouvoirs sont concentrés entre les mains du roi à Versailles.",
+          "coming": false
+        },
+        {
+          "asset": "Culture du viol",
+          "description": "Les femmes sont soumises au mari. Le viol conjugal est inconcevable, le consentement féminin n'existe pas juridiquement.",
+          "coming": false
+        },
+        {
+          "asset": "Pédophilie",
+          "description": "La protection des mineurs est inexistante. Le mariage précoce est toléré et la minorité sexuelle n'est pas un concept juridique.",
+          "coming": false
+        }
+      ],
+      "era_bonuses": [
+        {
+          "bonus": "Guerre",
+          "description": "Guerres quasi continues : Hollande, Ligue d'Augsbourg, Succession d'Espagne. Le royaume est en guerre pendant la majeure partie du règne."
+        },
+        {
+          "bonus": "Peste",
+          "description": "La grande peste de Marseille (1720) frappe la France à la fin du règne, mais sévit encore sporadiquement pendant la première moitié du XVIIe siècle."
+        },
+        {
+          "bonus": "Famine",
+          "description": "Les famines frappent régulièrement le peuple : la grande famine de 1693-1694 fait près d'un million et demi de morts."
+        }
+      ]
+    },
+    {
+      "name": "Napoléon",
+      "slug": "napoleon",
+      "question": "Vivre du temps de Napoléon ?",
+      "description": "L'épopée napoléonienne, du Consulat à l'Empire : guerres napoléoniennes, code civil, expansion territoriale, faste impérial et batailles mythiques, avant la chute finale à Waterloo.",
+      "source": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier",
+      "start_year": "1799-11-09",
+      "end_year": "1815-06-18",
+      "comments": [
+        {
+          "asset": "Lèpre",
+          "description": "La lèpre a largement disparu de France à cette époque, confinée à quelques rares foyers. Elle n'est plus un problème de santé publique majeur.",
+          "coming": false
+        },
+        {
+          "asset": "Travail des enfants",
+          "description": "Le travail des enfants est monnaie courante dans les ateliers et campagnes, sans protection légale. L'industrialisation naissante en exploite la main-d'œuvre.",
+          "coming": false
+        },
+        {
+          "asset": "Esclavage",
+          "description": "Napoléon rétablit l'esclavage en 1802 dans les colonies, annulant l'abolition de 1794. Des milliers de personnes sont à nouveau réduites en esclavage.",
+          "coming": false
+        },
+        {
+          "asset": "Vaccination",
+          "description": "Début de la vaccination contre la variole se diffuse après la découverte de Jenner (1798). Napoléon la favorise, notamment dans l'armée.",
+          "coming": false
+        },
+        {
+          "asset": "Dictature",
+          "description": "Napoléon rétablit un régime autoritaire en se proclamant Empereur en 1804, concentrant tous les pouvoirs entre ses mains sur les ruines de la Révolution.",
+          "coming": false
+        },
+        {
+          "asset": "Culture du viol",
+          "description": "Les femmes sont soumises à l'autorité maritale. Le viol conjugal n'est pas reconnu, le consentement est absent du Code civil de 1804.",
+          "coming": false
+        },
+        {
+          "asset": "Pédophilie",
+          "description": "La pédocriminalité n'est pas identifiée comme telle. La minorité est peu protégée par la loi, le sujet reste tabou et invisible.",
+          "coming": false
+        }
+      ],
+      "era_bonuses": [
+        {
+          "bonus": "Guerre",
+          "description": "Les guerres napoléoniennes ravagent l'Europe. La France est en guerre quasi permanente de 1799 à 1815, jusqu'à Waterloo."
+        }
+      ]
+    },
+    {
+      "name": "Victor Hugo",
+      "slug": "victor-hugo",
+      "question": "Vivre du temps de Victor Hugo ?",
+      "description": "Le siècle de Victor Hugo : romantisme, révolutions, République et empire, luttes sociales et engagement littéraire, de la Restauration à la Troisième République.",
+      "source": "https://fr.wikipedia.org/wiki/Victor_Hugo",
+      "start_year": "1802-02-26",
+      "end_year": "1885-05-22",
+      "comments": [
+        {
+          "asset": "Lèpre",
+          "description": "La lèpre a quasiment disparu du territoire français au XIXe siècle, reléguée aux marges de l'Empire colonial.",
+          "coming": false
+        },
+        {
+          "asset": "Démocratie",
+          "description": "Le suffrage universel masculin est établi en 1848. La République est proclamée, puis l'Empire revient, avant la Troisième République en 1870.",
+          "coming": false
+        },
+        {
+          "asset": "Travail des enfants",
+          "description": "Le travail des enfants reste massif en usine. La loi de 1841 fixe un âge minimum, mais son application est faible. La loi de 1874 renforce les protections.",
+          "coming": false
+        },
+        {
+          "asset": "Esclavage",
+          "description": "L'esclavage est aboli définitivement en 1848 sous la Seconde République, grâce à Victor Schoelcher. Les colonies françaises sont libérées.",
+          "coming": false
+        },
+        {
+          "asset": "Vaccination",
+          "description": "La vaccination contre la variole se généralise dans le siècle. Obligatoire pour les enfants en 1902, elle est déjà bien implantée sous le Second Empire.",
+          "coming": false
+        },
+        {
+          "asset": "École gratuite et laïque",
+          "description": "Les lois Ferry arrivent en 1882, à la fin de la vie de Hugo. L'école devient gratuite, laïque et obligatoire, aboutissement des combats républicains.",
+          "coming": true
+        },
+        {
+          "asset": "Liberté de la presse",
+          "description": "La loi du 29 juillet 1881 consacre la liberté de la presse. Hugo, exilé, incarne la lutte contre la censure sous le Second Empire.",
+          "coming": true
+        },
+        {
+          "asset": "Dictature",
+          "description": "Les régimes autoritaires disparaissent progressivement après 1870. La Troisième République ancre définitivement la démocratie en France.",
+          "coming": false
+        },
+        {
+          "asset": "Culture du viol",
+          "description": "Le Code civil maintient la femme sous l'autorité du mari. Hugo dénonce l'injustice sociale, mais le consentement reste un non-sujet juridique.",
+          "coming": false
+        },
+        {
+          "asset": "Pédophilie",
+          "description": "La protection des mineurs progresse timidement. La loi de 1904 viendra plus tard, mais la pédocriminalité reste largement ignorée et impunie.",
+          "coming": false
+        }
+      ],
+      "era_bonuses": [
+        {
+          "bonus": "Guerre",
+          "description": "Invasions de 1814-1815, révolutions de 1830, 1848 et 1870, guerre franco-prussienne de 1870 : le siècle est marqué par les conflits."
+        }
+      ]
+    },
+    {
+      "name": "Marie Curie",
+      "slug": "marie-curie",
+      "question": "Vivre du temps de Marie Curie ?",
+      "description": "L'époque de Marie Curie : Belle Époque et Première Guerre mondiale, rayonnement scientifique, prix Nobel, débuts de la radiologie et de la physique moderne, avant l'entre-deux-guerres.",
+      "source": "https://fr.wikipedia.org/wiki/Marie_Curie",
+      "start_year": "1867-11-07",
+      "end_year": "1934-07-04",
+      "comments": [
+        {
+          "asset": "Lèpre",
+          "description": "La lèpre a quasiment disparu de France. Les derniers cas sont rarissimes, la maladie relève désormais de l'histoire médicale.",
+          "coming": false
+        },
+        {
+          "asset": "Démocratie",
+          "description": "La Troisième République est solidement ancrée. Le suffrage universel masculin est la norme, mais les femmes restent exclues du vote.",
+          "coming": false
+        },
+        {
+          "asset": "Travail des enfants",
+          "description": "Le travail des enfants recule grâce aux lois de 1874 et 1892, mais persiste dans l'agriculture et certains ateliers.",
+          "coming": false
+        },
+        {
+          "asset": "Vaccination",
+          "description": "La vaccination contre la variole est largement répandue. L'Institut Pasteur, fondé en 1888, développe le vaccin contre la rage.",
+          "coming": false
+        },
+        {
+          "asset": "École gratuite et laïque",
+          "description": "Les lois Ferry (1882) rendent l'école gratuite, laïque et obligatoire. L'alphabétisation progresse rapidement du vivant de Marie Curie.",
+          "coming": false
+        },
+        {
+          "asset": "Liberté de la presse",
+          "description": "La liberté de la presse (1881) est solidement établie. La presse écrite connaît son âge d'or avec l'affaire Dreyfus.",
+          "coming": false
+        },
+        {
+          "asset": "Culture du viol",
+          "description": "Le Code civil maintient la femme sous l'autorité du mari. Marie Curie, pionnière, lutte pour sa place dans la science dominée par les hommes.",
+          "coming": false
+        },
+        {
+          "asset": "Pédophilie",
+          "description": "La protection des mineurs progresse timidement. La pédocriminalité reste largement ignorée et taboue à cette époque.",
+          "coming": false
+        }
+      ],
+      "era_bonuses": [
+        {
+          "bonus": "Guerre",
+          "description": "La Première Guerre mondiale (1914-1918) ravage le nord de la France et fait des millions de morts."
+        },
+        {
+          "bonus": "Famine",
+          "description": "Les pénuries et le rationnement frappent la population pendant la Première Guerre mondiale."
+        },
+        {
+          "bonus": "Abondance",
+          "description": "La Belle Époque (avant 1914) apporte croissance et prospérité. La révolution industrielle transforme la société française."
+        }
+      ]
+    },
+    {
+      "name": "De Gaulle",
+      "slug": "de-gaulle",
+      "question": "Vivre du temps de Charles De Gaulle ?",
+      "description": "L'époque de Gaulle : Seconde Guerre mondiale, Résistance, fondation de la Ve République, décolonisation, événements de Mai 68 et modernisation de la France.",
+      "source": "https://fr.wikipedia.org/wiki/Charles_de_Gaulle",
+      "start_year": "1890-11-22",
+      "end_year": "1970-11-09",
+      "comments": [
+        {
+          "asset": "Eau courante",
+          "description": "L'eau courante se généralise dans les foyers dans les années 1950-1960. En 1970, une grande majorité des foyers en bénéficie.",
+          "coming": false
+        },
+        {
+          "asset": "Électricité domestique",
+          "description": "L'électricité est quasiment généralisée en 1970. Les campagnes, longtemps retardataires, sont désormais raccordées au réseau électrique.",
+          "coming": false
+        },
+        {
+          "asset": "Antibiotiques",
+          "description": "La pénicilline se généralise après-guerre. Sous De Gaulle, les antibiotiques transforment la médecine et font chuter la mortalité infectieuse.",
+          "coming": false
+        },
+        {
+          "asset": "Voiture",
+          "description": "La voiture se démocratise dans les années 1960. En 1970, environ la moitié des ménages français en possèdent une.",
+          "coming": true
+        },
+        {
+          "asset": "Salle de bain",
+          "description": "La salle de bain se généralise dans les années 1960-1970, transformant le confort domestique. Elle reste inégalement répartie.",
+          "coming": true
+        },
+        {
+          "asset": "Démocratie",
+          "description": "La démocratie est solidement établie sous la Ve République. Le suffrage universel direct élit le président à partir de 1962.",
+          "coming": false
+        },
+        {
+          "asset": "Vote des femmes",
+          "description": "Acquis en 1944, les femmes votent pour la première fois en 1945. Sous De Gaulle, la parité politique n'est cependant pas encore effective.",
+          "coming": false
+        },
+        {
+          "asset": "Sécurité sociale",
+          "description": "Créée en 1945, la Sécurité sociale se généralise sous la IVe et la Ve République. En 1970, la quasi-totalité des Français est couverte.",
+          "coming": false
+        },
+        {
+          "asset": "SMIC",
+          "description": "Le SMIG, ancêtre du SMIC, est créé en 1950. Il garantit un salaire minimum, mais son niveau reste modeste sous la présidence de Gaulle.",
+          "coming": false
+        },
+        {
+          "asset": "Congés payés",
+          "description": "Introduits en 1936, ils se développent sous la IVe et la Ve République. En 1969, les Français disposent de 3 à 4 semaines de congés payés.",
+          "coming": false
+        },
+        {
+          "asset": "Vaccination",
+          "description": "La vaccination est devenue massive. La variole recule, le BCG se généralise, le vaccin contre la polio (1956) change la santé publique.",
+          "coming": false
+        },
+        {
+          "asset": "École gratuite et laïque",
+          "description": "L'école gratuite, laïque et obligatoire est le socle républicain. Le collège unique arrivera après De Gaulle en 1975.",
+          "coming": false
+        },
+        {
+          "asset": "Liberté de la presse",
+          "description": "La liberté de la presse est solidement établie. Après la censure de Vichy, la presse renaît et se diversifie sous la Ve République.",
+          "coming": false
+        },
+        {
+          "asset": "Culture du viol",
+          "description": "Le viol conjugal commence à peine à être reconnu. La loi de 1970 viendra plus tard. La culture du viol reste largement impunie et normalisée.",
+          "coming": false
+        },
+        {
+          "asset": "Pédophilie",
+          "description": "La loi de 1945 protège les mineurs, mais la pédocriminalité reste taboue. Les affaires éclateront dans les médias à partir des années 1990.",
+          "coming": false
+        },
+        {
+          "asset": "Chauffage domestique",
+          "description": "Le chauffage central se généralise dans les années 1960. En 1970, il équipe une part croissante des foyers français.",
+          "coming": false
+        },
+        {
+          "asset": "Viande",
+          "description": "La viande devient accessible au quotidien pour la majorité des Français dans les années 1960, grâce à la croissance et à l'agriculture intensive.",
+          "coming": true
+        },
+        {
+          "asset": "Réfrigérateur",
+          "description": "Le réfrigérateur se généralise dans les années 1960. En 1970, la plupart des foyers français en sont équipés, transformant l'alimentation.",
+          "coming": true
+        },
+        {
+          "asset": "Chimiothérapie",
+          "description": "La chimiothérapie se développe dans les années 1960-1970. Les premiers protocoles efficaces apparaissent, ouvrant un espoir contre le cancer.",
+          "coming": true
+        }
+      ],
+      "era_bonuses": [
+        {
+          "bonus": "Guerre",
+          "description": "Deux guerres mondiales marquent le début de sa vie. La Première (1914-18) et la Seconde (1939-45) ravagent le territoire."
+        },
+        {
+          "bonus": "Famine",
+          "description": "Le rationnement et les pénuries de la Seconde Guerre mondiale et de l'après-guerre frappent durablement la population."
+        },
+        {
+          "bonus": "Abondance",
+          "description": "Les Trente Glorieuses (1945-1975) apportent croissance, plein emploi et société de consommation à la France."
+        },
+        {
+          "bonus": "Paix",
+          "description": "Après 1945, la France métropolitaine connaît la paix. De Gaulle préside pendant une période sans conflit armé sur le territoire."
+        }
+      ]
+    },
+    {
+      "name": "Jacques Chirac",
+      "slug": "jacques-chirac",
+      "question": "Vivre du temps de Jacques Chirac ?",
+      "description": "L'époque de Chirac : Trente Glorieuses, Ve République, Mai 68, présidence, construction européenne, société de consommation, modernisation et mondialisation, jusqu'à l'ère numérique.",
+      "source": "https://fr.wikipedia.org/wiki/Jacques_Chirac",
+      "start_year": "1932-11-29",
+      "end_year": "2019-09-26",
+      "comments": [
+        {
+          "asset": "Eau courante",
+          "description": "L'eau courante est généralisée dans la quasi-totalité des foyers français dès les années 1960-1970, puis universelle.",
+          "coming": false
+        },
+        {
+          "asset": "Électricité domestique",
+          "description": "L'électricité est universelle en France pendant toute la vie de Chirac. Aucun foyer n'en est privé.",
+          "coming": false
+        },
+        {
+          "asset": "Internet",
+          "description": "Internet se démocratise à la fin des années 1990. En 2019, la quasi-totalité des foyers français y ont accès.",
+          "coming": false
+        },
+        {
+          "asset": "Antibiotiques",
+          "description": "Les antibiotiques sont massivement utilisés. La pénicilline et ses dérivés sont devenus monnaie courante depuis l'après-guerre.",
+          "coming": false
+        },
+        {
+          "asset": "Voiture",
+          "description": "La voiture s'est généralisée : plus de 80% des ménages en possèdent une à la fin du XXe siècle. La société est devenue automobile.",
+          "coming": false
+        },
+        {
+          "asset": "Salle de bain",
+          "description": "La salle de bain est devenue un standard universel dans les logements neufs comme anciens dès les années 1980.",
+          "coming": false
+        },
+        {
+          "asset": "Démocratie",
+          "description": "La démocratie est solidement établie sous la Ve République. Le suffrage universel direct élit le président depuis 1962.",
+          "coming": false
+        },
+        {
+          "asset": "Vote des femmes",
+          "description": "Les femmes votent depuis 1944. La parité politique progresse, mais reste inégale au temps de la présidence Chirac.",
+          "coming": false
+        },
+        {
+          "asset": "Sécurité sociale",
+          "description": "La Sécurité sociale couvre l'ensemble de la population. Le système de santé français est l'un des plus performants au monde.",
+          "coming": false
+        },
+        {
+          "asset": "SMIC",
+          "description": "Le SMIC, créé en 1970 sous Pompidou avec Chirac comme ministre, garantit un salaire minimum indexé sur l'inflation.",
+          "coming": false
+        },
+        {
+          "asset": "Congés payés",
+          "description": "Les congés payés sont passés à 5 semaines en 1969. Les Français disposent d'un temps libre généreux toute la vie de Chirac.",
+          "coming": false
+        },
+        {
+          "asset": "Vaccination",
+          "description": "La vaccination est massive et systématique. La variole est éradiquée (1980), le vaccin contre la polio est universel.",
+          "coming": false
+        },
+        {
+          "asset": "École gratuite et laïque",
+          "description": "L'école gratuite, laïque et obligatoire est le socle républicain. Le collège unique est en place depuis 1975.",
+          "coming": false
+        },
+        {
+          "asset": "Liberté de la presse",
+          "description": "La liberté de la presse est constitutionnellement garantie. La presse écrite décline face à la radio, la télévision et Internet.",
+          "coming": false
+        },
+        {
+          "asset": "Culture du viol",
+          "description": "La culture du viol commence à être dénoncée. Les lois sur le harcèlement sexuel (1992) et le viol conjugal (1992) progressent.",
+          "coming": false
+        },
+        {
+          "asset": "Pédophilie",
+          "description": "La pédocriminalité sort de l'ombre dans les années 1990-2000. Les lois se durcissent et la parole des victimes émerge.",
+          "coming": false
+        },
+        {
+          "asset": "Jeu vidéo",
+          "description": "Le jeu vidéo devient un loisir majeur. Des consoles comme la PlayStation marquent la génération de Chirac.",
+          "coming": false
+        },
+        {
+          "asset": "Réseaux sociaux",
+          "description": "Les réseaux sociaux explosent à la fin des années 2000. Facebook, Twitter et YouTube transforment la communication.",
+          "coming": false
+        },
+        {
+          "asset": "Chauffage domestique",
+          "description": "Le chauffage central est universel dans les logements. Le confort thermique est devenu une norme de base.",
+          "coming": false
+        },
+        {
+          "asset": "Viande",
+          "description": "La viande est accessible au quotidien pour tous. La consommation atteint son sommet avant de stagner à partir des années 2000.",
+          "coming": false
+        },
+        {
+          "asset": "Réfrigérateur",
+          "description": "Le réfrigérateur est universel dans les foyers français. La chaîne du froid garantit une conservation sûre des aliments.",
+          "coming": false
+        },
+        {
+          "asset": "Chimiothérapie",
+          "description": "La chimiothérapie s'est généralisée et perfectionnée. Les taux de survie au cancer s'améliorent nettement.",
+          "coming": false
+        }
+      ],
+      "era_bonuses": [
+        {
+          "bonus": "Abondance",
+          "description": "La société de consommation est à son apogée. Le niveau de vie atteint des sommets historiques pour la majorité des Français."
+        },
+        {
+          "bonus": "Paix",
+          "description": "La France métropolitaine est en paix pendant toute la vie de Chirac, de l'après-guerre à 2019, sans conflit armé sur le territoire."
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "name": "Eau courante",
+      "comment": "Eau potable au robinet en France disponible couramment dans les foyers, environ 80% des foyers en 1950.",
+      "source": "https://fr.wikipedia.org/wiki/Eau_potable_en_France",
+      "start_year": "1950",
+      "end_year": null,
+      "order": 1,
+      "color": "#048A81",
+      "type": "progress"
+    },
+    {
+      "name": "Antibiotiques",
+      "comment": "Découverte de la pénicilline par Alexander Fleming en 1928, mais utilisation généralisée dans les années 1940.",
+      "source": "https://fr.wikipedia.org/wiki/P%C3%A9nicilline",
+      "start_year": "1940",
+      "end_year": null,
+      "order": 2,
+      "color": "#8A89C0",
+      "type": "progress"
+    },
+    {
+      "name": "Vaccination",
+      "comment": "Généralisation de la vaccination contre la variole en France au début du XIXe siècle.",
+      "source": "https://fr.wikipedia.org/wiki/Histoire_de_la_vaccination",
+      "start_year": "1800",
+      "end_year": null,
+      "order": 3,
+      "color": "#8A89C0",
+      "type": "progress"
+    },
+    {
+      "name": "Électricité domestique",
+      "comment": "Électricité disponible dans la majorité de foyers français après la guerre, dans les années 1950.",
+      "source": "https://fr.wikipedia.org/wiki/%C3%89lectricit%C3%A9_en_France",
+      "start_year": "1950",
+      "end_year": null,
+      "order": 4,
+      "color": "#06D6A0",
+      "type": "progress"
+    },
+    {
+      "name": "Démocratie",
+      "comment": "La démocratie en France a été instaurée en 1789 avec la Révolution française.",
+      "source": "https://fr.wikipedia.org/wiki/D%C3%A9mocratie_en_France",
+      "start_year": "1789",
+      "end_year": null,
+      "order": 5,
+      "color": "#54C6EB",
+      "type": "progress"
+    },
+    {
+      "name": "École gratuite et laïque",
+      "comment": "Lois Jules Ferry rendant l'école gratuite, laïque et obligatoire en France.",
+      "source": "https://fr.wikipedia.org/wiki/Lois_Jules_Ferry",
+      "start_year": "1882",
+      "end_year": null,
+      "order": 6,
+      "color": "#048A81",
+      "type": "progress"
+    },
+    {
+      "name": "Vote des femmes",
+      "comment": "Le droit de vote des femmes a été accordé en France en 1944.",
+      "source": "https://fr.wikipedia.org/wiki/Droit_de_vote_des_femmes_en_France",
+      "start_year": "1944",
+      "end_year": null,
+      "order": 7,
+      "color": "#8A89C0",
+      "type": "progress"
+    },
+    {
+      "name": "Sécurité sociale",
+      "comment": "Création du système de protection sociale universel en France.",
+      "source": "https://fr.wikipedia.org/wiki/S%C3%A9curit%C3%A9_sociale_en_France",
+      "start_year": "1945",
+      "end_year": null,
+      "order": 8,
+      "color": "#048A81",
+      "type": "progress"
+    },
+    {
+      "name": "Travail des enfants",
+      "comment": "La loi de 1904 a interdit le travail des enfants de moins de 13 ans en France.",
+      "source": "https://fr.wikipedia.org/wiki/Travail_des_enfants",
+      "start_year": "0",
+      "end_year": "1904",
+      "order": 9,
+      "color": "#CDA2AB",
+      "type": "phenomenom"
+    },
+    {
+      "name": "Jeu vidéo",
+      "comment": "Popularisation des jeux vidéo en France avec l'arrivée des consoles et micro-ordinateurs grand public.",
+      "source": "https://fr.wikipedia.org/wiki/Histoire_du_jeu_vid%C3%A9o_en_France",
+      "start_year": "1980",
+      "end_year": null,
+      "order": 9,
+      "color": "#048A81",
+      "type": "progress"
+    },
+    {
+      "name": "Esclavage",
+      "comment": "L'esclavage a été aboli en France en 1848.",
+      "source": "https://fr.wikipedia.org/wiki/Esclavage_en_France",
+      "start_year": "0",
+      "end_year": "1848",
+      "order": 10,
+      "color": "#CDA2AB",
+      "type": "phenomenom"
+    },
+    {
+      "name": "Réseaux sociaux",
+      "comment": "Généralisation des réseaux sociaux en France avec l'arrivée de plateformes comme Facebook, Twitter, et LinkedIn.",
+      "source": "https://fr.wikipedia.org/wiki/R%C3%A9seau_social",
+      "start_year": "2005",
+      "end_year": null,
+      "order": 10,
+      "color": "#06D6A0",
+      "type": "progress"
+    },
+    {
+      "name": "Liberté de la presse",
+      "comment": "Loi du 29 juillet 1881 sur la liberté de la presse en France.",
+      "source": "https://fr.wikipedia.org/wiki/Loi_du_29_juillet_1881_sur_la_libert%C3%A9_de_la_presse",
+      "start_year": "1881",
+      "end_year": null,
+      "order": 11,
+      "color": "#06D6A0",
+      "type": "progress"
+    },
+    {
+      "name": "Chauffage domestique",
+      "comment": "Généralisation du chauffage central dans les foyers français, remplaçant les poêles et cheminées traditionnelles.",
+      "source": "https://fr.wikipedia.org/wiki/Chauffage_central",
+      "start_year": "1955",
+      "end_year": null,
+      "order": 11,
+      "color": "#54C6EB",
+      "type": "progress"
+    },
+    {
+      "name": "Salle de bain",
+      "comment": "En 1970, environ 50 % des maisons françaises étaient équipées de salles de bain",
+      "source": "https://fr.wikipedia.org/wiki/Salle_de_bain",
+      "start_year": "1970",
+      "end_year": null,
+      "order": 12,
+      "color": "#06D6A0",
+      "type": "progress"
+    },
+    {
+      "name": "Viande",
+      "comment": "Accès régulier à la viande dans l'alimentation quotidienne des Français, grâce à l'amélioration des conditions économiques et des systèmes de production.",
+      "source": "https://fr.wikipedia.org/wiki/Consommation_de_viande_en_France",
+      "start_year": "1960",
+      "end_year": null,
+      "order": 12,
+      "color": "#8A89C0",
+      "type": "progress"
+    },
+    {
+      "name": "Culture du viol",
+      "comment": "Présence et normalisation de la culture du viol dans la société.",
+      "source": "https://fr.wikipedia.org/wiki/Culture_du_viol",
+      "start_year": "0",
+      "end_year": null,
+      "order": 13,
+      "color": "#CDA2AB",
+      "type": "phenomenom"
+    },
+    {
+      "name": "Pédophilie",
+      "comment": "La fin de l'impunité médiatique : quand la pédophilie a cessé d'être un débat. Le début du combat dans le coeur de la société.",
+      "source": "https://larevuedesmedias.ina.fr/depuis-quand-les-medias-parlent-ils-de-pedophilie-pedocriminalite",
+      "start_year": "0",
+      "end_year": "1990",
+      "order": 14,
+      "color": "#CDA2AB",
+      "type": "phenomenom"
+    },
+    {
+      "name": "Congés payés",
+      "comment": "Introduction des congés payés",
+      "source": "https://fr.wikipedia.org/wiki/Cong%C3%A9s_pay%C3%A9s",
+      "start_year": "1936",
+      "end_year": null,
+      "order": 15,
+      "color": "#54C6EB",
+      "type": "progress"
+    },
+    {
+      "name": "SMIC",
+      "comment": "Création du Salaire Minimum Interprofessionnel de Croissance (SMIC) en France.",
+      "source": "https://fr.wikipedia.org/wiki/Salaire_minimum_interprofessionnel_de_croissance",
+      "start_year": "1950",
+      "end_year": null,
+      "order": 16,
+      "color": "#06D6A0",
+      "type": "progress"
+    },
+    {
+      "name": "Voiture",
+      "comment": "Possession de la voiture dans les foyers français, environ 50% des foyers en 1968.",
+      "source": "https://fr.wikipedia.org/wiki/Voiture",
+      "start_year": "1968",
+      "end_year": null,
+      "order": 17,
+      "color": "#048A81",
+      "type": "progress"
+    },
+    {
+      "name": "Internet",
+      "comment": "Utilisation grand publique d'Internet en France, environ 50% des foyers en 2000.",
+      "source": "https://fr.wikipedia.org/wiki/Internet_en_France",
+      "start_year": "2000",
+      "end_year": null,
+      "order": 18,
+      "color": "#54C6EB",
+      "type": "progress"
+    },
+    {
+      "name": "Réfrigérateur",
+      "comment": "Généralisation du réfrigérateur dans les foyers français",
+      "source": "https://fr.wikipedia.org/wiki/Histoire_du_r%C3%A9frig%C3%A9rateur",
+      "start_year": "1960",
+      "end_year": null,
+      "order": 18,
+      "color": "#06D6A0",
+      "type": "progress"
+    },
+    {
+      "name": "Dictature",
+      "comment": "Disparition des régimes autoritaires en France avec la proclamation de la Troisième République.",
+      "source": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_R%C3%A9publique_(France)",
+      "start_year": "-2000",
+      "end_year": "1870",
+      "order": 19,
+      "color": "#CDA2AB",
+      "type": "phenomenom"
+    },
+    {
+      "name": "Chimiothérapie",
+      "comment": "Généralisation de l'accès à la chimiothérapie en France",
+      "source": "https://fr.wikipedia.org/wiki/Histoire_de_la_chimioth%C3%A9rapie",
+      "start_year": "1970",
+      "end_year": null,
+      "order": 19,
+      "color": "#048A81",
+      "type": "progress"
+    },
+    {
+      "name": "Lèpre",
+      "comment": "Présence de la lèpre en France, éradication de la maladie dans les années 1950.",
+      "source": "https://fr.wikipedia.org/wiki/L%C3%A8pre",
+      "start_year": "0",
+      "end_year": "1950",
+      "order": 20,
+      "color": "#CDA2AB",
+      "type": "phenomenom"
+    },
+    {
+      "name": "Esclavage généralisé",
+      "comment": "Environ 30% de la population de l'Empire romain était réduite en esclavage. Les esclaves n'avaient aucun droit et étaient considérés comme des biens.",
+      "source": "https://fr.wikipedia.org/wiki/Esclavage_dans_la_Rome_antique",
+      "start_year": "-2000",
+      "end_year": "100",
+      "order": 30,
+      "color": "#CDA2AB",
+      "type": "curse"
+    },
+    {
+      "name": "Très faible espérance de vie",
+      "comment": "Espérance de vie moyenne de 25–35 ans à l'époque de Jésus-Christ, avec une mortalité infantile élevée (30–50% avant 5 ans).",
+      "source": "https://fr.wikipedia.org/wiki/Esp%C3%A9rance_de_vie_dans_l%27Antiquit%C3%A9",
+      "start_year": "-2000",
+      "end_year": "100",
+      "order": 31,
+      "color": "#CDA2AB",
+      "type": "curse"
+    },
+    {
+      "name": "Hygiène inexistante",
+      "comment": "Absence totale d'hygiène moderne : pas d'eau courante, pas de salle de bain, toilettes rudimentaires (latrines communes). Les rues étaient sales, avec des déchets jetés dans les caniveaux. Les bains publics (thermes) existaient mais étaient réservés aux élites.",
+      "source": "https://fr.wikipedia.org/wiki/Hygi%C3%A8ne_dans_la_Rome_antique",
+      "start_year": "-2000",
+      "end_year": "100",
+      "order": 35,
+      "color": "#CDA2AB",
+      "type": "curse"
+    }
+  ],
+  "bonuses": ["Guerre", "Peste", "Famine", "Abondance", "Paix"]
+}

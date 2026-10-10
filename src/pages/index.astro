@@ -1,10 +1,9 @@
 ---
-import Welcome from "../components/Welcome.astro";
-import Period from "../components/Period.astro";
-import Layout from "../layouts/Layout.astro";
+import Period from "@components/Period.astro";
+import Layout from "@layouts/Layout.astro";
+import datas from "../../datas.json";
 ---
 
 <Layout>
-  <Period />
-  <Welcome />
+  {datas.eras.map((era) => <Period era={era} />)}
 </Layout>
