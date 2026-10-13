@@ -1,0 +1,33 @@
+---
+const { content } = Astro.props;
+---
+
+<div class="tooltip">
+  <slot />
+  <p>{content}</p>
+</div>
+
+<style>
+  .tooltip {
+    position: relative;
+  }
+  .tooltip p {
+    z-index: 1;
+    display: none;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    width: 250px;
+    text-wrap: balance;
+  }
+  .tooltip:hover p {
+    display: block;
+  }
+</style>

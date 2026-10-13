@@ -1,9 +1,24 @@
 ---
-import Period from "@components/Period.astro";
+import Card from "@components/Card.astro";
 import Layout from "@layouts/Layout.astro";
 import datas from "../../datas.json";
 ---
 
 <Layout>
-  {datas.eras.map((era) => <Period era={era} />)}
+  {
+    datas.eras.map((era) => (
+      <Card
+        era={{
+          ...era,
+          start_year: Number(era.start_year),
+          end_year: Number(era.end_year),
+        }}
+        assets={datas.assets.map((asset) => ({
+          title: asset.name,
+          description: asset.comment,
+          type: asset.type,
+        }))}
+      />
+    ))
+  }
 </Layout>

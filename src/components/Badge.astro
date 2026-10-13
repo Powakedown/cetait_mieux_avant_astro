@@ -1,0 +1,47 @@
+---
+import Tooltip from "./Tooltip.astro";
+const { content, type, size } = Astro.props;
+const cssClass = type?.css ?? "";
+---
+
+<Tooltip content={content.description}>
+  <div class={`badge ${cssClass} ${size ?? ""}`}>
+    <h3>{content.title}</h3>
+  </div>
+</Tooltip>
+
+<style>
+  .badge {
+    margin: 0;
+    border: 1px solid #405491;
+    padding: 0.3rem 0.6rem;
+    color: #405491;
+    border-radius: 1rem;
+  }
+  .badge h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: -1px;
+  }
+  .small h3 {
+    padding: 0.05rem 0.1rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .orange {
+    border-color: #ff9800;
+    color: #ff9800;
+  }
+  .red {
+    border-color: #bc7974;
+    color: #bc7974;
+  }
+  .green {
+    border-color: #4caf50;
+    color: #4caf50;
+  }
+  .slashed {
+    text-decoration: line-through;
+  }
+</style>

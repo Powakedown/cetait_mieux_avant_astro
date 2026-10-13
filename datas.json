@@ -6,8 +6,8 @@
       "question": "Vivre du temps de Jésus Christ ?",
       "description": "La Judée du Ier siècle sous occupation romaine : province turbulente, messies et prédicateurs, tensions religieuses et attentes eschatologiques, au carrefour du monde méditerranéen.",
       "source": "https://fr.wikipedia.org/wiki/J%C3%A9sus_de_Nazareth",
-      "start_year": "-0004-01-01",
-      "end_year": "0033-01-01",
+      "start_year": "-4",
+      "end_year": "33",
       "comments": [
         {
           "asset": "Lèpre",
@@ -15,49 +15,34 @@
           "coming": false
         },
         {
-          "asset": "Travail des enfants",
+          "asset": "Fin du travail des enfants",
           "description": "Le travail des enfants est la norme : aux champs, à l'atelier, à la maison. Dès le plus jeune âge, ils participent à l'économie familiale.",
           "coming": false
         },
         {
-          "asset": "Esclavage",
+          "asset": "Fin de l'esclavage",
           "description": "L'esclavage est massif dans le monde romain : prisonniers de guerre, dettes, naissance. L'économie méditerranéenne en dépend largement.",
           "coming": false
         },
         {
-          "asset": "Dictature",
+          "asset": "Fin de la dictature",
           "description": "Hérode le Grand, roi vassal de Rome, règne en maître sur la Judée. Le pouvoir est absolu, sous tutelle impériale romaine.",
           "coming": false
         },
         {
-          "asset": "Culture du viol",
+          "asset": "Fin de la culture du viol",
           "description": "Le statut de la femme est subordonné au patriarche. Le consentement n'est pas un concept juridique, le viol est peu réprimé hors adultère.",
           "coming": false
         },
         {
-          "asset": "Pédophilie",
+          "asset": "Fin de la pédophilie",
           "description": "La minorité sexuelle n'existe pas comme concept juridique. Les mariages précoces sont fréquents et la mortalité infantile très élevée.",
-          "coming": false
-        },
-        {
-          "asset": "Esclavage généralisé",
-          "description": "Esclavage généralisé sévit encore à cette époque.",
-          "coming": false
-        },
-        {
-          "asset": "Très faible espérance de vie",
-          "description": "Très faible espérance de vie sévit encore à cette époque.",
-          "coming": false
-        },
-        {
-          "asset": "Hygiène inexistante",
-          "description": "Hygiène inexistante sévit encore à cette époque.",
           "coming": false
         }
       ],
-      "era_bonuses": [
+      "bonuses": [
         {
-          "bonus": "Paix",
+          "title": "Paix",
           "description": "La Gaule romaine bénéficie de la Pax Romana. L'ordre impérial maintient une paix relative dans les provinces."
         }
       ]
@@ -68,8 +53,8 @@
       "question": "Vivre au Moyen Âge ?",
       "description": "Le Moyen Âge : seigneurs, châteaux forts, famines, épidémies, religion omniprésente et vie quotidienne rude, de la chute de Rome à la Renaissance.",
       "source": "https://fr.wikipedia.org/wiki/Moyen_%C3%82ge",
-      "start_year": "0476-01-01",
-      "end_year": "1453-07-21",
+      "start_year": "476",
+      "end_year": "1453",
       "comments": [
         {
           "asset": "Lèpre",
@@ -77,42 +62,42 @@
           "coming": false
         },
         {
-          "asset": "Travail des enfants",
+          "asset": "Fin du travail des enfants",
           "description": "Le travail des enfants est universel et nécessaire à la survie. Dès le plus jeune âge, les enfants travaillent aux champs ou aux ateliers.",
           "coming": false
         },
         {
-          "asset": "Esclavage",
+          "asset": "Fin de l'esclavage",
           "description": "L'esclavage existe encore au début du Moyen Âge, mais décline avec la féodalité au profit du servage, qui le remplace graduellement.",
           "coming": false
         },
         {
-          "asset": "Dictature",
+          "asset": "Fin de la dictature",
           "description": "Le pouvoir se concentre lentement entre les mains des souverains. Les Capétiens imposent progressivement leur autorité sur des seigneurs puissants et fragmentés.",
           "coming": false
         },
         {
-          "asset": "Culture du viol",
+          "asset": "Fin de la culture du viol",
           "description": "Le droit médiéval soumet la femme au père puis au mari. Le consentement n'est pas un concept juridique, le viol est peu réprimé.",
           "coming": false
         },
         {
-          "asset": "Pédophilie",
+          "asset": "Fin de la pédophilie",
           "description": "La pédocriminalité n'est pas identifiée. Les mariages précoces et la mortalité infantile élevée caractérisent cette société rude.",
           "coming": false
         }
       ],
-      "era_bonuses": [
+      "bonuses": [
         {
-          "bonus": "Guerre",
+          "title": "Guerre",
           "description": "Invasions, guerres féodales et guerre de Cent Ans : le territoire est en conflit presque permanent tout au long du Moyen Âge."
         },
         {
-          "bonus": "Peste",
+          "title": "Peste",
           "description": "La peste de Justinien (VIe s.) puis la peste noire (1347-1352) décimentent la population française."
         },
         {
-          "bonus": "Famine",
+          "title": "Famine",
           "description": "Les famines sont endémiques, aggravées par les guerres et le climat. La grande famine de 1315-1317 frappe toute l'Europe."
         }
       ]
@@ -123,8 +108,8 @@
       "question": "Vivre du temps de Louis XIV ?",
       "description": "Le Roi-Soleil et Versailles : absolutisme, faste de la cour, guerres d'expansion, classique français, arts et grandeur, du milieu du XVIIe siècle au début du XVIIIe.",
       "source": "https://fr.wikipedia.org/wiki/Louis_XIV",
-      "start_year": "1643-05-14",
-      "end_year": "1715-09-01",
+      "start_year": "1643",
+      "end_year": "1715",
       "comments": [
         {
           "asset": "Lèpre",
@@ -132,42 +117,42 @@
           "coming": false
         },
         {
-          "asset": "Travail des enfants",
+          "asset": "Fin du travail des enfants",
           "description": "Le travail des enfants est la norme dans les champs et ateliers. Dès 7 ans, ils participent à l'économie familiale sans protection.",
           "coming": false
         },
         {
-          "asset": "Esclavage",
+          "asset": "Fin de l'esclavage",
           "description": "L'esclavage sévit dans les colonies. Le Code noir de 1685 réglemente l'esclavage, légitimant et organisant la condition servile.",
           "coming": false
         },
         {
-          "asset": "Dictature",
+          "asset": "Fin de la dictature",
           "description": "Louis XIV incarne l'absolutisme royal : « L'État, c'est moi. » Tous les pouvoirs sont concentrés entre les mains du roi à Versailles.",
           "coming": false
         },
         {
-          "asset": "Culture du viol",
+          "asset": "Fin de la culture du viol",
           "description": "Les femmes sont soumises au mari. Le viol conjugal est inconcevable, le consentement féminin n'existe pas juridiquement.",
           "coming": false
         },
         {
-          "asset": "Pédophilie",
+          "asset": "Fin de la pédophilie",
           "description": "La protection des mineurs est inexistante. Le mariage précoce est toléré et la minorité sexuelle n'est pas un concept juridique.",
           "coming": false
         }
       ],
-      "era_bonuses": [
+      "bonuses": [
         {
-          "bonus": "Guerre",
+          "title": "Guerre",
           "description": "Guerres quasi continues : Hollande, Ligue d'Augsbourg, Succession d'Espagne. Le royaume est en guerre pendant la majeure partie du règne."
         },
         {
-          "bonus": "Peste",
+          "title": "Peste",
           "description": "La grande peste de Marseille (1720) frappe la France à la fin du règne, mais sévit encore sporadiquement pendant la première moitié du XVIIe siècle."
         },
         {
-          "bonus": "Famine",
+          "title": "Famine",
           "description": "Les famines frappent régulièrement le peuple : la grande famine de 1693-1694 fait près d'un million et demi de morts."
         }
       ]
@@ -178,8 +163,8 @@
       "question": "Vivre du temps de Napoléon ?",
       "description": "L'épopée napoléonienne, du Consulat à l'Empire : guerres napoléoniennes, code civil, expansion territoriale, faste impérial et batailles mythiques, avant la chute finale à Waterloo.",
       "source": "https://fr.wikipedia.org/wiki/Napol%C3%A9on_Ier",
-      "start_year": "1799-11-09",
-      "end_year": "1815-06-18",
+      "start_year": "1799",
+      "end_year": "1815",
       "comments": [
         {
           "asset": "Lèpre",
@@ -187,12 +172,12 @@
           "coming": false
         },
         {
-          "asset": "Travail des enfants",
+          "asset": "Fin du travail des enfants",
           "description": "Le travail des enfants est monnaie courante dans les ateliers et campagnes, sans protection légale. L'industrialisation naissante en exploite la main-d'œuvre.",
           "coming": false
         },
         {
-          "asset": "Esclavage",
+          "asset": "Fin de l'esclavage",
           "description": "Napoléon rétablit l'esclavage en 1802 dans les colonies, annulant l'abolition de 1794. Des milliers de personnes sont à nouveau réduites en esclavage.",
           "coming": false
         },
@@ -202,24 +187,24 @@
           "coming": false
         },
         {
-          "asset": "Dictature",
+          "asset": "Fin de la dictature",
           "description": "Napoléon rétablit un régime autoritaire en se proclamant Empereur en 1804, concentrant tous les pouvoirs entre ses mains sur les ruines de la Révolution.",
           "coming": false
         },
         {
-          "asset": "Culture du viol",
+          "asset": "Fin de la culture du viol",
           "description": "Les femmes sont soumises à l'autorité maritale. Le viol conjugal n'est pas reconnu, le consentement est absent du Code civil de 1804.",
           "coming": false
         },
         {
-          "asset": "Pédophilie",
+          "asset": "Fin de la pédophilie",
           "description": "La pédocriminalité n'est pas identifiée comme telle. La minorité est peu protégée par la loi, le sujet reste tabou et invisible.",
           "coming": false
         }
       ],
-      "era_bonuses": [
+      "bonuses": [
         {
-          "bonus": "Guerre",
+          "title": "Guerre",
           "description": "Les guerres napoléoniennes ravagent l'Europe. La France est en guerre quasi permanente de 1799 à 1815, jusqu'à Waterloo."
         }
       ]
@@ -230,8 +215,8 @@
       "question": "Vivre du temps de Victor Hugo ?",
       "description": "Le siècle de Victor Hugo : romantisme, révolutions, République et empire, luttes sociales et engagement littéraire, de la Restauration à la Troisième République.",
       "source": "https://fr.wikipedia.org/wiki/Victor_Hugo",
-      "start_year": "1802-02-26",
-      "end_year": "1885-05-22",
+      "start_year": "1802",
+      "end_year": "1885",
       "comments": [
         {
           "asset": "Lèpre",
@@ -244,12 +229,12 @@
           "coming": false
         },
         {
-          "asset": "Travail des enfants",
+          "asset": "Fin du travail des enfants",
           "description": "Le travail des enfants reste massif en usine. La loi de 1841 fixe un âge minimum, mais son application est faible. La loi de 1874 renforce les protections.",
           "coming": false
         },
         {
-          "asset": "Esclavage",
+          "asset": "Fin de l'esclavage",
           "description": "L'esclavage est aboli définitivement en 1848 sous la Seconde République, grâce à Victor Schoelcher. Les colonies françaises sont libérées.",
           "coming": false
         },
@@ -269,24 +254,24 @@
           "coming": true
         },
         {
-          "asset": "Dictature",
+          "asset": "Fin de la dictature",
           "description": "Les régimes autoritaires disparaissent progressivement après 1870. La Troisième République ancre définitivement la démocratie en France.",
           "coming": false
         },
         {
-          "asset": "Culture du viol",
+          "asset": "Fin de la culture du viol",
           "description": "Le Code civil maintient la femme sous l'autorité du mari. Hugo dénonce l'injustice sociale, mais le consentement reste un non-sujet juridique.",
           "coming": false
         },
         {
-          "asset": "Pédophilie",
+          "asset": "Fin de la pédophilie",
           "description": "La protection des mineurs progresse timidement. La loi de 1904 viendra plus tard, mais la pédocriminalité reste largement ignorée et impunie.",
           "coming": false
         }
       ],
-      "era_bonuses": [
+      "bonuses": [
         {
-          "bonus": "Guerre",
+          "title": "Guerre",
           "description": "Invasions de 1814-1815, révolutions de 1830, 1848 et 1870, guerre franco-prussienne de 1870 : le siècle est marqué par les conflits."
         }
       ]
@@ -297,8 +282,8 @@
       "question": "Vivre du temps de Marie Curie ?",
       "description": "L'époque de Marie Curie : Belle Époque et Première Guerre mondiale, rayonnement scientifique, prix Nobel, débuts de la radiologie et de la physique moderne, avant l'entre-deux-guerres.",
       "source": "https://fr.wikipedia.org/wiki/Marie_Curie",
-      "start_year": "1867-11-07",
-      "end_year": "1934-07-04",
+      "start_year": "1867",
+      "end_year": "1934",
       "comments": [
         {
           "asset": "Lèpre",
@@ -311,7 +296,7 @@
           "coming": false
         },
         {
-          "asset": "Travail des enfants",
+          "asset": "Fin du travail des enfants",
           "description": "Le travail des enfants recule grâce aux lois de 1874 et 1892, mais persiste dans l'agriculture et certains ateliers.",
           "coming": false
         },
@@ -331,27 +316,27 @@
           "coming": false
         },
         {
-          "asset": "Culture du viol",
+          "asset": "Fin de la culture du viol",
           "description": "Le Code civil maintient la femme sous l'autorité du mari. Marie Curie, pionnière, lutte pour sa place dans la science dominée par les hommes.",
           "coming": false
         },
         {
-          "asset": "Pédophilie",
+          "asset": "Fin de la pédophilie",
           "description": "La protection des mineurs progresse timidement. La pédocriminalité reste largement ignorée et taboue à cette époque.",
           "coming": false
         }
       ],
-      "era_bonuses": [
+      "bonuses": [
         {
-          "bonus": "Guerre",
+          "title": "Guerre",
           "description": "La Première Guerre mondiale (1914-1918) ravage le nord de la France et fait des millions de morts."
         },
         {
-          "bonus": "Famine",
+          "title": "Famine",
           "description": "Les pénuries et le rationnement frappent la population pendant la Première Guerre mondiale."
         },
         {
-          "bonus": "Abondance",
+          "title": "Abondance",
           "description": "La Belle Époque (avant 1914) apporte croissance et prospérité. La révolution industrielle transforme la société française."
         }
       ]
@@ -362,8 +347,8 @@
       "question": "Vivre du temps de Charles De Gaulle ?",
       "description": "L'époque de Gaulle : Seconde Guerre mondiale, Résistance, fondation de la Ve République, décolonisation, événements de Mai 68 et modernisation de la France.",
       "source": "https://fr.wikipedia.org/wiki/Charles_de_Gaulle",
-      "start_year": "1890-11-22",
-      "end_year": "1970-11-09",
+      "start_year": "1890",
+      "end_year": "1970",
       "comments": [
         {
           "asset": "Eau courante",
@@ -431,12 +416,12 @@
           "coming": false
         },
         {
-          "asset": "Culture du viol",
+          "asset": "Fin de la culture du viol",
           "description": "Le viol conjugal commence à peine à être reconnu. La loi de 1970 viendra plus tard. La culture du viol reste largement impunie et normalisée.",
           "coming": false
         },
         {
-          "asset": "Pédophilie",
+          "asset": "Fin de la pédophilie",
           "description": "La loi de 1945 protège les mineurs, mais la pédocriminalité reste taboue. Les affaires éclateront dans les médias à partir des années 1990.",
           "coming": false
         },
@@ -461,21 +446,21 @@
           "coming": true
         }
       ],
-      "era_bonuses": [
+      "bonuses": [
         {
-          "bonus": "Guerre",
+          "title": "Guerre",
           "description": "Deux guerres mondiales marquent le début de sa vie. La Première (1914-18) et la Seconde (1939-45) ravagent le territoire."
         },
         {
-          "bonus": "Famine",
+          "title": "Famine",
           "description": "Le rationnement et les pénuries de la Seconde Guerre mondiale et de l'après-guerre frappent durablement la population."
         },
         {
-          "bonus": "Abondance",
+          "title": "Abondance",
           "description": "Les Trente Glorieuses (1945-1975) apportent croissance, plein emploi et société de consommation à la France."
         },
         {
-          "bonus": "Paix",
+          "title": "Paix",
           "description": "Après 1945, la France métropolitaine connaît la paix. De Gaulle préside pendant une période sans conflit armé sur le territoire."
         }
       ]
@@ -486,8 +471,8 @@
       "question": "Vivre du temps de Jacques Chirac ?",
       "description": "L'époque de Chirac : Trente Glorieuses, Ve République, Mai 68, présidence, construction européenne, société de consommation, modernisation et mondialisation, jusqu'à l'ère numérique.",
       "source": "https://fr.wikipedia.org/wiki/Jacques_Chirac",
-      "start_year": "1932-11-29",
-      "end_year": "2019-09-26",
+      "start_year": "1932",
+      "end_year": "2019",
       "comments": [
         {
           "asset": "Eau courante",
@@ -560,12 +545,12 @@
           "coming": false
         },
         {
-          "asset": "Culture du viol",
+          "asset": "Fin de la culture du viol",
           "description": "La culture du viol commence à être dénoncée. Les lois sur le harcèlement sexuel (1992) et le viol conjugal (1992) progressent.",
           "coming": false
         },
         {
-          "asset": "Pédophilie",
+          "asset": "Fin de la pédophilie",
           "description": "La pédocriminalité sort de l'ombre dans les années 1990-2000. Les lois se durcissent et la parole des victimes émerge.",
           "coming": false
         },
@@ -600,13 +585,13 @@
           "coming": false
         }
       ],
-      "era_bonuses": [
+      "bonuses": [
         {
-          "bonus": "Abondance",
+          "title": "Abondance",
           "description": "La société de consommation est à son apogée. Le niveau de vie atteint des sommets historiques pour la majorité des Français."
         },
         {
-          "bonus": "Paix",
+          "title": "Paix",
           "description": "La France métropolitaine est en paix pendant toute la vie de Chirac, de l'après-guerre à 2019, sans conflit armé sur le territoire."
         }
       ]
@@ -694,7 +679,7 @@
       "type": "progress"
     },
     {
-      "name": "Travail des enfants",
+      "name": "Fin du travail des enfants",
       "comment": "La loi de 1904 a interdit le travail des enfants de moins de 13 ans en France.",
       "source": "https://fr.wikipedia.org/wiki/Travail_des_enfants",
       "start_year": "0",
@@ -714,7 +699,7 @@
       "type": "progress"
     },
     {
-      "name": "Esclavage",
+      "name": "Fin de l'esclavage",
       "comment": "L'esclavage a été aboli en France en 1848.",
       "source": "https://fr.wikipedia.org/wiki/Esclavage_en_France",
       "start_year": "0",
@@ -774,7 +759,7 @@
       "type": "progress"
     },
     {
-      "name": "Culture du viol",
+      "name": "Fin de la culture du viol",
       "comment": "Présence et normalisation de la culture du viol dans la société.",
       "source": "https://fr.wikipedia.org/wiki/Culture_du_viol",
       "start_year": "0",
@@ -784,7 +769,7 @@
       "type": "phenomenom"
     },
     {
-      "name": "Pédophilie",
+      "name": "Fin de la pédophilie",
       "comment": "La fin de l'impunité médiatique : quand la pédophilie a cessé d'être un débat. Le début du combat dans le coeur de la société.",
       "source": "https://larevuedesmedias.ina.fr/depuis-quand-les-medias-parlent-ils-de-pedophilie-pedocriminalite",
       "start_year": "0",
@@ -844,7 +829,7 @@
       "type": "progress"
     },
     {
-      "name": "Dictature",
+      "name": "Fin de la dictature",
       "comment": "Disparition des régimes autoritaires en France avec la proclamation de la Troisième République.",
       "source": "https://fr.wikipedia.org/wiki/Troisi%C3%A8me_R%C3%A9publique_(France)",
       "start_year": "-2000",
@@ -872,36 +857,6 @@
       "order": 20,
       "color": "#CDA2AB",
       "type": "phenomenom"
-    },
-    {
-      "name": "Esclavage généralisé",
-      "comment": "Environ 30% de la population de l'Empire romain était réduite en esclavage. Les esclaves n'avaient aucun droit et étaient considérés comme des biens.",
-      "source": "https://fr.wikipedia.org/wiki/Esclavage_dans_la_Rome_antique",
-      "start_year": "-2000",
-      "end_year": "100",
-      "order": 30,
-      "color": "#CDA2AB",
-      "type": "curse"
-    },
-    {
-      "name": "Très faible espérance de vie",
-      "comment": "Espérance de vie moyenne de 25–35 ans à l'époque de Jésus-Christ, avec une mortalité infantile élevée (30–50% avant 5 ans).",
-      "source": "https://fr.wikipedia.org/wiki/Esp%C3%A9rance_de_vie_dans_l%27Antiquit%C3%A9",
-      "start_year": "-2000",
-      "end_year": "100",
-      "order": 31,
-      "color": "#CDA2AB",
-      "type": "curse"
-    },
-    {
-      "name": "Hygiène inexistante",
-      "comment": "Absence totale d'hygiène moderne : pas d'eau courante, pas de salle de bain, toilettes rudimentaires (latrines communes). Les rues étaient sales, avec des déchets jetés dans les caniveaux. Les bains publics (thermes) existaient mais étaient réservés aux élites.",
-      "source": "https://fr.wikipedia.org/wiki/Hygi%C3%A8ne_dans_la_Rome_antique",
-      "start_year": "-2000",
-      "end_year": "100",
-      "order": 35,
-      "color": "#CDA2AB",
-      "type": "curse"
     }
   ],
   "bonuses": ["Guerre", "Peste", "Famine", "Abondance", "Paix"]
