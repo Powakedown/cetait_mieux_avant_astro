@@ -48,57 +48,57 @@
       ]
     },
     {
-      "name": "Moyen Âge",
-      "slug": "moyen-age",
-      "question": "Vivre au Moyen Âge ?",
-      "description": "Le Moyen Âge : seigneurs, châteaux forts, famines, épidémies, religion omniprésente et vie quotidienne rude, de la chute de Rome à la Renaissance.",
-      "source": "https://fr.wikipedia.org/wiki/Moyen_%C3%82ge",
-      "start_year": "476",
-      "end_year": "1453",
+      "name": "Jeanne d'Arc",
+      "slug": "jeanne-darc",
+      "question": "Vivre du temps de Jeanne d'Arc ?",
+      "description": "La France déchirée de la guerre de Cent Ans : occupation anglaise après Azincourt, traité de Troyes, guerre civile entre Armagnacs et Bourguignons, Orléans délivrée et sacre de Charles VII, jusqu'au bûcher de Rouen.",
+      "source": "https://fr.wikipedia.org/wiki/Jeanne_d%27Arc",
+      "start_year": "1412",
+      "end_year": "1431",
       "comments": [
         {
           "asset": "Lèpre",
-          "description": "La lèpre est endémique au Moyen Âge. Des léproseries parsèment le pays pour isoler les malades, craints et marginalisés.",
+          "description": "La lèpre recule depuis la première moitié du XIVe siècle, mais reste présente. Les léproseries héritées des siècles précédents subsistent pour isoler les malades.",
           "coming": false
         },
         {
           "asset": "Fin du travail des enfants",
-          "description": "Le travail des enfants est universel et nécessaire à la survie. Dès le plus jeune âge, les enfants travaillent aux champs ou aux ateliers.",
+          "description": "Le travail des enfants reste la norme : aux champs et à l'atelier, dès le plus jeune âge, ils participent à la survie de la famille.",
           "coming": false
         },
         {
           "asset": "Fin de l'esclavage",
-          "description": "L'esclavage existe encore au début du Moyen Âge, mais décline avec la féodalité au profit du servage, qui le remplace graduellement.",
+          "description": "L'esclavage est aboli de droit en France par l'édit de 1315, mais le servage et la mainmorte subsistent, attachant encore des paysans à la terre du seigneur.",
           "coming": false
         },
         {
           "asset": "Fin de la dictature",
-          "description": "Le pouvoir se concentre lentement entre les mains des souverains. Les Capétiens imposent progressivement leur autorité sur des seigneurs puissants et fragmentés.",
+          "description": "Le royaume est déchiré entre Armagnacs et Bourguignons. Le traité de Troyes (1420) déshérite le dauphin Charles au profit d'Henri V d'Angleterre, héritier du trône de France.",
           "coming": false
         },
         {
           "asset": "Fin de la culture du viol",
-          "description": "Le droit médiéval soumet la femme au père puis au mari. Le consentement n'est pas un concept juridique, le viol est peu réprimé.",
+          "description": "La femme est sous l'autorité du père puis du mari. Le consentement n'est pas un concept juridique, le viol est peu réprimé.",
           "coming": false
         },
         {
           "asset": "Fin de la pédophilie",
-          "description": "La pédocriminalité n'est pas identifiée. Les mariages précoces et la mortalité infantile élevée caractérisent cette société rude.",
+          "description": "La minorité sexuelle n'existe pas comme concept juridique. Les mariages précoces sont fréquents et la mortalité infantile très élevée.",
           "coming": false
         }
       ],
       "bonuses": [
         {
           "title": "Guerre",
-          "description": "Invasions, guerres féodales et guerre de Cent Ans : le territoire est en conflit presque permanent tout au long du Moyen Âge."
+          "description": "La guerre de Cent Ans fait rage : défaite d'Azincourt (1415), traité de Troyes (1420), siège d'Orléans (1428-1429). Les compagnies pillent les campagnes."
         },
         {
           "title": "Peste",
-          "description": "La peste de Justinien (VIe s.) puis la peste noire (1347-1352) décimentent la population française."
+          "description": "Après la peste noire de 1347-1352, l'épidémie revient par vagues pendant la période, notamment en 1412-1414, 1420 et 1426."
         },
         {
           "title": "Famine",
-          "description": "Les famines sont endémiques, aggravées par les guerres et le climat. La grande famine de 1315-1317 frappe toute l'Europe."
+          "description": "Les disettes frappent encore le royaume : échaudage de 1420, hiver rude de 1420-1421, récoltes ravagées par la guerre et les pillards."
         }
       ]
     },

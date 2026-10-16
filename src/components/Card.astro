@@ -82,9 +82,14 @@ function type(asset: Asset) {
   >
   </div>
   <div class="content">
+    <div class="intro">
+      <p>
+      Vivre à l'époque de
+      </p>
+      <p class="date">{era.start_year} - {era.end_year}</p>
+    </div>
     <h1>{era.name}</h1>
     <p>{era.description}</p>
-    <p class="date">{era.start_year} - {era.end_year}</p>
     <div class="bonuses">
       <span class="period-label">Période de :</span>
       {era.bonuses.map((bonus) => <Badge content={bonus} />)}
@@ -104,12 +109,11 @@ function type(asset: Asset) {
     background-color: #f2e3cf;
     box-shadow: 0 0.5rem 1rem #00000026;
     border-radius: 1rem;
-    width: 65%;
-    min-width: 65%;
+    width: 55%;
+    min-width: 55%;
     height: 100%;
     font-family: Verdana;
   }
-
   .illustration {
     width: 30%;
     height: 100%;
@@ -117,7 +121,18 @@ function type(asset: Asset) {
     border-radius: 1rem 0 0 1rem;
     background-size: cover;
   }
+  .intro {
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+    color: #af8b5b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    p {
+      margin: 0;
+    }
+  }
   .bonuses,
   .assets {
     display: flex;
@@ -143,10 +158,6 @@ function type(asset: Asset) {
   }
 
   .date {
-    position: absolute;
-    right: 1rem;
-    top: 0rem;
-    color: #af8b5b;
   }
 
   .period-label {

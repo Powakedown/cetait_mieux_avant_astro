@@ -6,12 +6,26 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <title>C'était mieux avant</title>
   </head>
   <body>
-    <main>
-      <slot />
-    </main>
+    <p>
+      Les avancées adoptées par la majorité de la population en France
+      métropolitaine, pas leur invention. Les disparitions de phénomènes
+      délétères ou nuisibles à la société sont également représentées.
+    </p>
+    <slot />
+    <div class="legends">
+      <span class="legend">
+        <span class="legend-dot green"></span> Existe
+      </span>
+      <span class="legend">
+        <span class="legend-dot orange"></span> En développement
+      </span>
+      <span class="legend">
+        <span class="legend-dot red"></span> N'existe pas
+      </span>
+    </div>
   </body>
 </html>
 
@@ -20,18 +34,46 @@
   body {
     margin: 0;
     width: 100%;
-    height: 90%;
-    background-color: #f9f9ed;
-  }
-
-  main {
-    position: relative;
     height: 100%;
+    background-color: #f9f9ed;
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    font-family: verdana;
+    color: #846c6c;
+    padding: 1rem;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .legends {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 1rem;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 1rem;
+  }
+  .legend {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: verdana;
+  }
+  .legend-dot {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .orange {
+    background-color: #ff9800;
+    color: #ff9800;
+  }
+  .red {
+    background-color: #bc7974;
+    color: #bc7974;
+  }
+  .green {
+    background-color: #4caf50;
+    color: #4caf50;
   }
 </style>
