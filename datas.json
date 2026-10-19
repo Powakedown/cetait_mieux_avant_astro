@@ -1,49 +1,48 @@
 {
   "eras": [
     {
-      "name": "Jésus Christ",
-      "slug": "jesus-christ",
-      "question": "Vivre du temps de Jésus Christ ?",
-      "description": "La Judée du Ier siècle sous occupation romaine : province turbulente, messies et prédicateurs, tensions religieuses et attentes eschatologiques, au carrefour du monde méditerranéen.",
-      "source": "https://fr.wikipedia.org/wiki/J%C3%A9sus_de_Nazareth",
-      "start_year": "-4",
-      "end_year": "33",
+      "name": "Vercingétorix",
+      "slug": "vercingetorix",
+      "question": "Vivre du temps de Vercingétorix ?",
+      "description": "La Gaule indépendante avant Rome : tribus gauloises, druides et aristocratie guerrière, conquête de Jules César, fédération des peuples par Vercingétorix, victoire de Gergovie puis reddition d'Alésia, jusqu'aux chaînes du vaincu à Rome.",
+      "source": "https://fr.wikipedia.org/wiki/Vercing%C3%A9torix",
+      "start_year": "-82",
+      "end_year": "-46",
       "comments": [
         {
-          "asset": "Lèpre",
-          "description": "La lèpre sévit dans le bassin méditerranéen. Malades isolés et marginaux, ils sont considérés comme impurs et exclus de la communauté.",
-          "coming": false
-        },
-        {
           "asset": "Fin du travail des enfants",
-          "description": "Le travail des enfants est la norme : aux champs, à l'atelier, à la maison. Dès le plus jeune âge, ils participent à l'économie familiale.",
+          "description": "Le travail des enfants est la norme : Diodore de Sicile rapporte que les banquets gaulois sont servis par des enfants des deux sexes, aux côtés de l'économie paysanne.",
           "coming": false
         },
         {
           "asset": "Fin de l'esclavage",
-          "description": "L'esclavage est massif dans le monde romain : prisonniers de guerre, dettes, naissance. L'économie méditerranéenne en dépend largement.",
+          "description": "L'esclavage est massif et redouté : les Gaulois craignent par-dessus tout d'être réduits en servitude en cas de défaite. Des dizaines de milliers de captifs de la guerre des Gaules sont vendus comme esclaves.",
           "coming": false
         },
         {
           "asset": "Fin de la dictature",
-          "description": "Hérode le Grand, roi vassal de Rome, règne en maître sur la Judée. Le pouvoir est absolu, sous tutelle impériale romaine.",
+          "description": "Désigné chef de la coalition gauloise en -52, Vercingétorix reçoit le commandement suprême avec pouvoir de vie et de mort sur ses soldats, au sommet d'une société d'aristocratie guerrière.",
           "coming": false
         },
         {
           "asset": "Fin de la culture du viol",
-          "description": "Le statut de la femme est subordonné au patriarche. Le consentement n'est pas un concept juridique, le viol est peu réprimé hors adultère.",
+          "description": "Les Gauloises ont plus de droits que les femmes grecques ou romaines, mais la famille reste patriarcale : César rapporte que le mari a droit de vie et de mort sur sa femme et ses enfants. Le consentement n'est pas un concept juridique.",
           "coming": false
         },
         {
           "asset": "Fin de la pédophilie",
-          "description": "La minorité sexuelle n'existe pas comme concept juridique. Les mariages précoces sont fréquents et la mortalité infantile très élevée.",
+          "description": "La minorité sexuelle n'existe pas comme concept juridique. Les enfants participent très tôt à la vie adulte et à l'économie familiale.",
           "coming": false
         }
       ],
       "bonuses": [
         {
-          "title": "Paix",
-          "description": "La Gaule romaine bénéficie de la Pax Romana. L'ordre impérial maintient une paix relative dans les provinces."
+          "title": "Guerre",
+          "description": "La guerre des Gaules de César (58-50 av. J.-C.) ravage le pays : victoire de Gergovie puis défaite d'Alésia en -52, plusieurs centaines de milliers de morts et au moins autant de captifs."
+        },
+        {
+          "title": "Famine",
+          "description": "La stratégie de la terre brûlée et les sièges affament tous les camps : les légions souffrent de la faim devant Avaricum, et la famine contraint les assiégés d'Alésia à se rendre."
         }
       ]
     },
@@ -57,7 +56,7 @@
       "end_year": "1431",
       "comments": [
         {
-          "asset": "Lèpre",
+          "asset": "Absence de la Lèpre",
           "description": "La lèpre recule depuis la première moitié du XIVe siècle, mais reste présente. Les léproseries héritées des siècles précédents subsistent pour isoler les malades.",
           "coming": false
         },
@@ -112,7 +111,7 @@
       "end_year": "1715",
       "comments": [
         {
-          "asset": "Lèpre",
+          "asset": "Absence de la Lèpre",
           "description": "La lèpre a largement reculé en France au XVIIe siècle, mais des maladreries subsistent. La maladie frappe encore les marges.",
           "coming": false
         },
@@ -167,7 +166,7 @@
       "end_year": "1815",
       "comments": [
         {
-          "asset": "Lèpre",
+          "asset": "Absence de la Lèpre",
           "description": "La lèpre a largement disparu de France à cette époque, confinée à quelques rares foyers. Elle n'est plus un problème de santé publique majeur.",
           "coming": false
         },
@@ -219,7 +218,7 @@
       "end_year": "1885",
       "comments": [
         {
-          "asset": "Lèpre",
+          "asset": "Absence de la Lèpre",
           "description": "La lèpre a quasiment disparu du territoire français au XIXe siècle, reléguée aux marges de l'Empire colonial.",
           "coming": false
         },
@@ -286,7 +285,7 @@
       "end_year": "1934",
       "comments": [
         {
-          "asset": "Lèpre",
+          "asset": "Absence de la Lèpre",
           "description": "La lèpre a quasiment disparu de France. Les derniers cas sont rarissimes, la maladie relève désormais de l'histoire médicale.",
           "coming": false
         },
@@ -849,7 +848,7 @@
       "type": "progress"
     },
     {
-      "name": "Lèpre",
+      "name": "Absence de la Lèpre",
       "comment": "Présence de la lèpre en France, éradication de la maladie dans les années 1950.",
       "source": "https://fr.wikipedia.org/wiki/L%C3%A8pre",
       "start_year": "0",
