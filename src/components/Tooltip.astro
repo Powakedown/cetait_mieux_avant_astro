@@ -29,11 +29,14 @@ const { content } = Astro.props;
     width: max-content;
     max-width: min(270px, 76vw);
     transform: translate(-50%, 4px);
-    font-size: 11px;
+    font-size: 14px;
     line-height: 1.55;
     text-wrap: pretty;
     pointer-events: none;
-    transition: opacity 140ms ease, transform 140ms ease, visibility 140ms;
+    transition:
+      opacity 140ms ease,
+      transform 140ms ease,
+      visibility 140ms;
   }
 
   .tooltip:hover p,

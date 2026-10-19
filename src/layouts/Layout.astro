@@ -1,3 +1,7 @@
+---
+import Badge from "../components/Badge.astro";
+---
+
 <!doctype html>
 <html lang="fr">
   <head>
@@ -14,32 +18,37 @@
   </head>
   <body>
     <div class="app-shell">
-      <header class="masthead">
-        <a class="wordmark" href="/" aria-label="C'était mieux avant ? Accueil">
-          <span class="wordmark-mark" aria-hidden="true">H</span>
-          <span>C'était mieux avant<span class="wordmark-question"> ?</span></span>
-        </a>
-        <span class="masthead-note">Repères de l'histoire <span>·</span> France métropolitaine</span>
-      </header>
-
-      <section class="page-intro" aria-labelledby="page-title">
+      <header class="page-intro" aria-labelledby="page-title">
         <div>
-          <p class="eyebrow">Une traversée du temps</p>
+          <p class="eyebrow">C'était mieux avant ?</p>
           <h1 id="page-title">Vivre à travers les siècles</h1>
         </div>
         <p class="intro-note">
-          Les avancées présentées sont celles adoptées par la majorité de la population en France métropolitaine,
-          pas leur invention. Les phénomènes délétères disparus sont également représentés.
+          Les avancées présentées sont celles adoptées par la majorité de la
+          population en France métropolitaine, pas leur invention. Les
+          phénomènes délétères disparus sont également représentés.
         </p>
-      </section>
+      </header>
 
       <main class="timeline"><slot /></main>
 
       <footer class="legend-bar" aria-label="Légende des statuts">
         <span class="legend-heading">Statut à cette époque</span>
-        <span class="legend"><span class="legend-dot green"></span>Déjà présent</span>
-        <span class="legend"><span class="legend-dot orange"></span>En développement</span>
-        <span class="legend"><span class="legend-dot red"></span>Pas encore présent</span>
+        <Badge
+          content={{ title: "Déjà présent" }}
+          type={{ css: "green" }}
+          size="small"
+        />
+        <Badge
+          content={{ title: "En développement" }}
+          type={{ css: "orange" }}
+          size="small"
+        />
+        <Badge
+          content={{ title: "Pas encore présent" }}
+          type={{ css: "red" }}
+          size="small"
+        />
       </footer>
     </div>
   </body>
@@ -183,10 +192,10 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 23px;
+    gap: 15px;
     min-height: 66px;
     color: var(--muted);
-    font-size: 11px;
+    font-size: 16px;
   }
 
   .legend-heading {

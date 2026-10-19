@@ -85,7 +85,11 @@ function type(asset: Asset) {
     <div class="intro">
       <p>Vivre à l'époque de</p>
       <p class="date">
-        {era.start_year < 0 ? `${Math.abs(era.start_year)} av. J.-C.` : era.start_year}
+        {
+          era.start_year < 0
+            ? `${Math.abs(era.start_year)} av. J.-C.`
+            : era.start_year
+        }
         <span aria-hidden="true">—</span>
         {era.end_year}
       </p>
@@ -119,14 +123,17 @@ function type(asset: Asset) {
     border: 1px solid #e5e4dc;
     border-radius: 8px;
     background: #fffefa;
-    box-shadow: 0 12px 34px #26382d12, 0 2px 5px #26382d08;
+    box-shadow:
+      0 12px 34px #26382d12,
+      0 2px 5px #26382d08;
+    height: 100%;
   }
 
   .illustration {
     min-width: 0;
     height: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     position: relative;
   }
 
@@ -144,7 +151,7 @@ function type(asset: Asset) {
     gap: 12px;
     margin: 0 0 12px;
     color: #a25d47;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 650;
     letter-spacing: 0.02em;
 
@@ -175,7 +182,7 @@ function type(asset: Asset) {
     flex-basis: 100%;
     margin: 0 0 2px;
     color: #66736b;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.09em;
     text-transform: uppercase;
@@ -184,9 +191,6 @@ function type(asset: Asset) {
   .content {
     min-width: 0;
     padding: clamp(23px, 3vw, 38px);
-    overflow-y: auto;
-    scrollbar-color: #ccd4ca transparent;
-    scrollbar-width: thin;
   }
 
   h2 {
@@ -202,7 +206,7 @@ function type(asset: Asset) {
   .description {
     margin: 14px 0 0;
     color: #59665f;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.7;
     text-wrap: pretty;
   }
