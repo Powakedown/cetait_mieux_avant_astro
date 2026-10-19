@@ -5,7 +5,7 @@ import datas from "../../datas.json";
 ---
 
 <Layout>
-  <div class="cards">
+  <div class="cards" aria-label="Frise chronologique des époques">
     {
       datas.eras.map((era) => (
         <Card
@@ -27,17 +27,38 @@ import datas from "../../datas.json";
 
 <style>
   .cards {
-    position: relative;
-    height: 100%;
     display: flex;
-    align-items: center;
-    gap: 1rem;
-    overflow: scroll;
+    align-items: stretch;
+    gap: 18px;
+    width: 100%;
+    padding: 0 max(32px, calc((100vw - 1480px) / 2));
+    overflow-x: auto;
+    overflow-y: hidden;
     flex-grow: 1;
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    scroll-snap-type: x mandatory;
+    scrollbar-color: #b7c4b8 transparent;
+    scrollbar-width: thin;
+    overscroll-behavior-inline: contain;
   }
+
   .cards::-webkit-scrollbar {
-    display: none;
+    height: 6px;
+  }
+
+  .cards::-webkit-scrollbar-thumb {
+    border-radius: 99px;
+    background: #b7c4b8;
+  }
+
+  .cards :global(section) {
+    scroll-snap-align: start;
+  }
+
+  @media (max-width: 760px) {
+    .cards {
+      gap: 13px;
+      padding-inline: 18px;
+      padding-bottom: 12px;
+    }
   }
 </style>

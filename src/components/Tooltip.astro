@@ -2,32 +2,55 @@
 const { content } = Astro.props;
 ---
 
-<div class="tooltip">
+<div class="tooltip" tabindex="0">
   <slot />
-  <p>{content}</p>
+  <p role="tooltip">{content}</p>
 </div>
 
 <style>
   .tooltip {
     position: relative;
+    outline: none;
   }
+
   .tooltip p {
-    z-index: 1;
-    display: none;
+    z-index: 5;
+    visibility: hidden;
+    opacity: 0;
     margin: 0;
-    padding: 0.5rem;
-    background-color: #333;
+    padding: 9px 11px;
+    border: 1px solid #ffffff20;
+    background-color: #24362f;
     color: #fff;
-    border-radius: 0.5rem;
+    border-radius: 5px;
     position: absolute;
-    top: 110%;
+    top: calc(100% + 8px);
     left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    width: 250px;
-    text-wrap: balance;
+    width: max-content;
+    max-width: min(270px, 76vw);
+    transform: translate(-50%, 4px);
+    font-size: 11px;
+    line-height: 1.55;
+    text-wrap: pretty;
+    pointer-events: none;
+    transition: opacity 140ms ease, transform 140ms ease, visibility 140ms;
   }
-  .tooltip:hover p {
-    display: block;
+
+  .tooltip:hover p,
+  .tooltip:focus-visible p {
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+
+  .tooltip:focus-visible {
+    border-radius: 5px;
+    box-shadow: 0 0 0 2px #a25d47;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .tooltip p {
+      transition: none;
+    }
   }
 </style>

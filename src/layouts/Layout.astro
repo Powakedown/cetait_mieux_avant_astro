@@ -1,79 +1,284 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="generator" content={Astro.generator} />
-    <title>C'était mieux avant</title>
+    <meta
+      name="description"
+      content="Une frise pour parcourir les époques et comprendre ce qui a changé dans la vie quotidienne."
+    />
+    <title>C'était mieux avant ? — Repères de l'histoire</title>
   </head>
   <body>
-    <p>
-      Les avancées adoptées par la majorité de la population en France
-      métropolitaine, pas leur invention. Les disparitions de phénomènes
-      délétères ou nuisibles à la société sont également représentées.
-    </p>
-    <slot />
-    <div class="legends">
-      <span class="legend">
-        <span class="legend-dot green"></span> Existe
-      </span>
-      <span class="legend">
-        <span class="legend-dot orange"></span> En développement
-      </span>
-      <span class="legend">
-        <span class="legend-dot red"></span> N'existe pas
-      </span>
+    <div class="app-shell">
+      <header class="masthead">
+        <a class="wordmark" href="/" aria-label="C'était mieux avant ? Accueil">
+          <span class="wordmark-mark" aria-hidden="true">H</span>
+          <span>C'était mieux avant<span class="wordmark-question"> ?</span></span>
+        </a>
+        <span class="masthead-note">Repères de l'histoire <span>·</span> France métropolitaine</span>
+      </header>
+
+      <section class="page-intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">Une traversée du temps</p>
+          <h1 id="page-title">Vivre à travers les siècles</h1>
+        </div>
+        <p class="intro-note">
+          Les avancées présentées sont celles adoptées par la majorité de la population en France métropolitaine,
+          pas leur invention. Les phénomènes délétères disparus sont également représentés.
+        </p>
+      </section>
+
+      <main class="timeline"><slot /></main>
+
+      <footer class="legend-bar" aria-label="Légende des statuts">
+        <span class="legend-heading">Statut à cette époque</span>
+        <span class="legend"><span class="legend-dot green"></span>Déjà présent</span>
+        <span class="legend"><span class="legend-dot orange"></span>En développement</span>
+        <span class="legend"><span class="legend-dot red"></span>Pas encore présent</span>
+      </footer>
     </div>
   </body>
 </html>
 
 <style>
+  :global(*) {
+    box-sizing: border-box;
+  }
+
+  :global(html) {
+    min-width: 320px;
+    background: #f5f6f1;
+    color: #24362f;
+    font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :global(body) {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+  }
+
   html,
   body {
-    margin: 0;
     width: 100%;
-    height: 100%;
-    background-color: #f9f9ed;
+  }
+
+  .app-shell {
+    --ink: #24362f;
+    --muted: #68756e;
+    --line: #dce2da;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    background-color: #f5f6f1;
+    background-image: radial-gradient(#dce2da 0.65px, transparent 0.65px);
+    background-size: 18px 18px;
   }
-  p {
-    font-family: verdana;
-    color: #846c6c;
-    padding: 1rem;
-    margin: 0;
-    text-wrap: balance;
+
+  .masthead,
+  .page-intro,
+  .legend-bar {
+    width: min(100% - 64px, 1480px);
+    margin-inline: auto;
   }
-  .legends {
+
+  .masthead {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 76px;
+    border-bottom: 1px solid var(--line);
   }
-  .legend {
+
+  .wordmark {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    font-family: verdana;
+    gap: 11px;
+    color: var(--ink);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
   }
+
+  .wordmark-mark {
+    display: grid;
+    width: 31px;
+    aspect-ratio: 1;
+    place-items: center;
+    border-radius: 50%;
+    background: #315b4b;
+    color: #f5f6f1;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .wordmark-question {
+    color: #bc654e;
+  }
+
+  .masthead-note {
+    color: var(--muted);
+    font-size: 12px;
+    letter-spacing: 0.02em;
+  }
+
+  .masthead-note span {
+    padding-inline: 6px;
+    color: #bd7658;
+  }
+
+  .page-intro {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 36px;
+    padding-block: 27px 24px;
+  }
+
+  .eyebrow {
+    margin: 0 0 7px;
+    color: #a25d47;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .page-intro h1 {
+    margin: 0;
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    font-size: clamp(27px, 3vw, 39px);
+    font-weight: 500;
+    line-height: 1.08;
+  }
+
+  .intro-note {
+    max-width: 480px;
+    margin: 0 0 2px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.65;
+    text-wrap: pretty;
+  }
+
+  .timeline {
+    display: flex;
+    flex: 1;
+    min-height: 0;
+  }
+
+  .legend-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+    min-height: 66px;
+    color: var(--muted);
+    font-size: 11px;
+  }
+
+  .legend-heading {
+    color: var(--ink);
+    font-weight: 700;
+  }
+
+  .legend {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    white-space: nowrap;
+  }
+
   .legend-dot {
-    width: 1rem;
-    height: 1rem;
-    display: inline-block;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
   }
+
   .orange {
-    background-color: #ff9800;
-    color: #ff9800;
+    background-color: #c4812c;
   }
+
   .red {
-    background-color: #bc7974;
-    color: #bc7974;
+    background-color: #b85d4b;
   }
+
   .green {
-    background-color: #4caf50;
-    color: #4caf50;
+    background-color: #43846b;
+  }
+
+  @media (max-width: 760px) {
+    .masthead,
+    .page-intro,
+    .legend-bar {
+      width: calc(100% - 36px);
+    }
+
+    .masthead {
+      min-height: 64px;
+    }
+
+    .masthead-note {
+      max-width: 135px;
+      text-align: right;
+      line-height: 1.5;
+    }
+
+    .page-intro {
+      display: block;
+      padding-block: 21px 18px;
+    }
+
+    .page-intro h1 {
+      font-size: 30px;
+    }
+
+    .intro-note {
+      margin-top: 11px;
+      font-size: 11px;
+    }
+
+    .legend-bar {
+      justify-content: flex-start;
+      gap: 10px 16px;
+      padding-block: 12px;
+    }
+
+    .legend-heading {
+      flex-basis: 100%;
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .page-intro > * {
+      animation: rise-in 500ms both;
+    }
+
+    .page-intro > :last-child {
+      animation-delay: 90ms;
+    }
+
+    @keyframes rise-in {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
   }
 </style>
